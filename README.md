@@ -11,6 +11,15 @@ example image:
 ## Project Intro/Objective
 The purpose of this project is to predict the future demand for charging stations in municipalities in Switzerland based in charging infrastructure that is currently available and the growth rate of electric car stock.
 
+Assumptions: 
+- current charging infrastructure is sufficient for current vehicle stock, 
+- predictions are based on the electric vehicle stock growth rate from 2016 to 2021.
+
+""""""nice to have: 
+- build a prediction model for historical data for car sales
+- add green energy sources
+- narrow down prediction from municipality to location within municipality (based in distance between the stations, etc.)
+
 ### Partner
 * [Name of Partner organization/Government department etc..]
 * Website for partner
