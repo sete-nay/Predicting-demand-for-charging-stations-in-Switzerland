@@ -9,7 +9,7 @@ example image:
 #### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to predict the future demand for charging stations in municipalities in Switzerland based in charging infrastructure that is currently available and the growth rate of electric car stock.
 
 ### Partner
 * [Name of Partner organization/Government department etc..]
@@ -25,21 +25,17 @@ The purpose of this project is ________. (Describe the main goals of the project
 * etc.
 
 ### Technologies
-* R
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
-* HTML
-* JavaScript
+*  
+*  
 * etc.
 
 ## Project Description
-(Provide more detailed overview of the project.
-Talk a bit about your data sources and what questions and hypothesis you are exploring.
-What specific data analysis/visualization and modelling work are you using to solve the
-problem? What blockers and challenges are you facing?
-Feel free to number or bullet point things here)
+
+Data sources:
+- charging stations available in Switzerland https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
+- current stock of electric cars in Switzerland https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
 
 ## Getting Started
 
