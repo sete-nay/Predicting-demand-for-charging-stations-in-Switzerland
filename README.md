@@ -19,6 +19,7 @@ Assumptions:
 - build a prediction model for historical data for car sales
 - add green energy sources
 - narrow down prediction from municipality to location within municipality (based in distance between the stations, etc.)
+- visualisation: car sales per municipality, charging stations per municipality, prediction for new charging stations
 
 ### Partner
 * [Name of Partner organization/Government department etc..]
