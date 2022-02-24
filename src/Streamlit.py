@@ -16,10 +16,10 @@ def load_data(path):
 
 df = load_data(path = "./data/ev_communes.csv")
 
-st.title("Predicting-demand-for-charging-stations-in-Switzerland")
+st.title("Predicting demand for charging stations in Switzerland")
 st.header("Number of new charging stations")
 
-st.subheader("Map")
+st.subheader("New charging stations per municipalities")
 
 df["delta"] = df.recomm_2022 - df.Count
 df2 = df.dropna()
