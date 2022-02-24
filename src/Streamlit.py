@@ -14,7 +14,8 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-df = load_data(path = "./data/ev_communes.csv")
+df_raw = load_data(path = "./data/ev_communes.csv")
+df = deepcopy(df_raw)
 
 st.title("Predicting demand for charging stations in Switzerland")
 st.header("Number of new charging stations")
