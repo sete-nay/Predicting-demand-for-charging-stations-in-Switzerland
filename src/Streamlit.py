@@ -8,12 +8,13 @@ import json
 from copy import deepcopy
 
 
+
 @st.cache
 def load_data(path):
     df = pd.read_csv(path)
     return df
 
-df = load_data(path = ".data/ev_communes.csv")
+df = load_data(path = "./data/ev_communes.csv")
 
 st.title("Predicting-demand-for-charging-stations-in-Switzerland")
 st.header("Number of new charging stations")
