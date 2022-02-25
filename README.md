@@ -42,10 +42,10 @@ We therefore tried to predict the future demand for charging stations per munici
 Assumptions: current charging infrastructure is sufficient for current vehicle stock.
 
 ### 2. Data sources:
-- charging stations available in Switzerland https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
-- current stock of electric cars in Switzerland https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
+- Charging stations available in Switzerland as of Februrary 2022 https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
+- Current stock of electric cars in Switzerland https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
 - Swiss municipalities https://datahub.io/cividi/ch-municipalities
-- predictions are based on the electric vehicle stock growth rate from 2017 to 2021, for years 2022-23-24.
+Predictions are based on the electric vehicle stock growth rate from 2017 to 2021, for years 2022-23-24.
 
 ### 4. Conclusions
    - Live Visualization of results
