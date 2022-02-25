@@ -64,8 +64,6 @@ fig.update_layout(margin={"r":0,"t":35,"l":0,"b":0},
                  )
 """
 
-st.title("Title")
-st.header("Header")
 #we read the csv
 df_cs = pd.read_csv("./data/ev_communes_final.csv", index_col = 1)
 df_cs = df_cs.dropna()
@@ -88,7 +86,7 @@ fig1.update_layout(
     title={"text": "Charging Stations Recommendations", "font": {"size": 20}},
     xaxis={"title": {"text": "EV Cars per City", "font": {"size": 12}}},
     yaxis={"title": {"text": "Charging Stations per City", "font": {"size": 12}}},
-    paper_bgcolor='rgb(0, 0, 0)',
+    paper_bgcolor='rgb(255,255, 255)',
     plot_bgcolor='rgb(254, 246, 224)',
 )
 #fig1.update_yaxes(type="log")
