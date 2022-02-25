@@ -33,7 +33,9 @@ The purpose of this project is to evaluate the future demand for charging statio
 
 ## Project Description
 We realized how geographical data could be useful to solve sustainability related issues, as it can be a meaningful way to show the environmental impact of a specific market and inform public decision makers for future policies.
+
 After having previously analyzed in our course, the situation of clean energy sources in Switzerland, we thought about using the same approach in order to optimize the use of electric vehicles in Switzerland and adapt the offer of charging stations.
+
 We therefore tried to predict the future demand for charging stations per municipalities, based on the yearly sales of electric vehicles and the geographic charging points infrastructure that is currently available.
 
 Assumptions: 
