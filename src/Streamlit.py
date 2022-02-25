@@ -19,7 +19,7 @@ df = deepcopy(df_raw)
 
 st.title("Predicting demand for charging stations in Switzerland")
 
-st.header("New charging stations required per municipality in 2022</b>")
+st.header("New charging stations required per municipality in 2022")
 
 df["delta"] = df.recomm_2022 - df.Count
 df2 = df.dropna()
