@@ -1,6 +1,4 @@
-# Project Name
-
-example image:
+# Predicting demand for charging stations in Switzerland
 
 
 ![alternative text](./src/newplot.png)
