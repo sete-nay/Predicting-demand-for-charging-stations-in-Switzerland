@@ -1,9 +1,5 @@
 # Evolution of EV charging stations in Switzerland
 
-
-!(./src/newplot.png)
-
-
 #### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
@@ -43,6 +39,11 @@ We therefore tried to predict the future demand for charging stations per munici
 - Geographical data of the 2'215 EV charging stations currently available in Switzerland as of January 2022, json format https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
 - Total EV registered in each of the 2'163 Swiss municipalities, yearly data from 2017 to 2021, excel file https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
 - Geographic data of all Swiss municipalities, json format https://datahub.io/cividi/ch-municipalities 
+
+### 3. Methods and data transformation
+- Current stock of electric cars in Switzerland is used to collect ther data about infrastructure that is currently available. This file was cleaned and normalized. The dataframe is grouped by cities, which gives a number of available charging stations.
+- Charging stations available in Switzerland as of Februrary 2022 is used to estimate the demand for new charging stations. We took the data from 2017 to 2021, calculated the mean growth rate and applied it to predict future demand for charging stations. Here we assume that the current infrastructure is sufficient for the current demand. 
+- These 2 dataframes were merge to calculate the gap between future stock of electric vehicles and future demand for charging stations.
 
 ### 4. Conclusions
    - Live Visualization of results
