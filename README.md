@@ -32,7 +32,7 @@ The purpose of this project is to evaluate the future demand for charging statio
 * Streamlit 
 
 ## Project Description
-# 1.Introduction:
+### 1.Introduction:
 We realized how geographical data could be useful to solve sustainability related issues, as it can be a meaningful way to show the environmental impact of a specific market and inform public decision makers for future policies.
 
 After having previously analyzed in our course, the situation of clean energy sources in Switzerland, we thought about using the same approach in order to optimize the use of electric vehicles in Switzerland and adapt the offer of charging stations.
@@ -43,15 +43,15 @@ Assumptions:
 - current charging infrastructure is sufficient for current vehicle stock, 
 - predictions are based on the electric vehicle stock growth rate from 2017 to 2021, for years 2022-23-24.
 
-# 2.Data sources:
+### 2.Data sources:
 - charging stations available in Switzerland https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
 - current stock of electric cars in Switzerland https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
 - Swiss municipalities https://datahub.io/cividi/ch-municipalities
 
-# 4.Conclusions
+### 4.Conclusions
    - Live Visualization of results
    - Our model predicted that more than 1'000 additional EV will be operational in 2022, compared to 2'215 today. 
-# 5.Suggestions for further improvements
+### 5.Suggestions for further improvements
    - Having a regresion model would be better. With more explanatory value
    - Where to put the new CS, not just by city buy also by where in the city
    - Make the prediction to take into account total car popultion in order to avoid wrong recomendations (Risch Case)
