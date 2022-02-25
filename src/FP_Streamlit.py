@@ -151,8 +151,8 @@ st.pyplot(fig2)
 input_double_chart = city_box
 fig3, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 4))     #, sharex=True, sharey=True)
 
-ax1.plot(df_cs_trans_4.index ,df_cs_trans_4[input_double_chart], alpha = 1)
-ax2.plot(df_cs_trans_3.index ,df_cs_trans_3[input_double_chart], alpha = 1)
+if input_double_chart != "All":
+    ax1.plot(df_cs_trans_4.index ,df_cs_trans_4[input_double_chart], alpha = 1)
+    ax2.plot(df_cs_trans_3.index ,df_cs_trans_3[input_double_chart], alpha = 1)
+    st.pyplot(fig3)
 
-
-st.pyplot(fig3)
