@@ -3,7 +3,7 @@
 example image:
 
 
-![alternative text](reports/img/pic01.jpg)
+![alternative text](./src/newplot.png)
 
 
 #### -- Project Status: [Active, On-Hold, Completed]
