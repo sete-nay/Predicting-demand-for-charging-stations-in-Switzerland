@@ -1,7 +1,7 @@
 # Predicting demand for charging stations in Switzerland
 
 
-![alternative text](./src/newplot.png)
+!(./src/newplot.png)
 
 
 #### -- Project Status: [Active, On-Hold, Completed]
