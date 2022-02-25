@@ -26,24 +26,21 @@ Assumptions:
 * If you do not have a partner leave this section out
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
 * Data Visualization
 * Predictive Modeling
-* etc.
 
 ### Technologies
 * Python
 * Pandas, jupyter
-*  
-*  
-* etc.
+* Plotly 
+* Streamlit 
 
 ## Project Description
 
 Data sources:
 - charging stations available in Switzerland https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
 - current stock of electric cars in Switzerland https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
+- Swiss municipalities https://datahub.io/cividi/ch-municipalities
 
 ## Getting Started
 
@@ -68,9 +65,6 @@ create another "setup.md" file and link to it here*
 
 ## Contributing Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**
-
-#### Other Members:
-
- - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle])
+ - Jeremy Choppe (https://github.com/jeremychoppe)
+ - Franco Palito (https://github.com/fpallitto)
+ - Satanei Zhinova (https://github.com/SetenayZ)
