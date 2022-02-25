@@ -1,4 +1,4 @@
-# Predicting demand for charging stations in Switzerland
+# Evolution of EV charging stations in Switzerland
 
 
 !(./src/newplot.png)
@@ -7,7 +7,7 @@
 #### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
-The purpose of this project is to predict the future demand for charging stations in municipalities in Switzerland based in charging infrastructure that is currently available and the growth rate of electric car stock.
+The purpose of this project is to evaluate the future demand for charging stations in municipalities in Switzerland based in charging infrastructure that is currently available and the growth rate of electric vehicles.
 
 Assumptions: 
 - current charging infrastructure is sufficient for current vehicle stock, 
@@ -29,7 +29,7 @@ Assumptions:
 * Data Visualization
 * Predictive Modeling
 
-### Technologies
+### Data Science tools
 * Python
 * Pandas, jupyter
 * Plotly 
@@ -47,7 +47,7 @@ Data sources:
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
+    *If using offline data mention that and how they may obtain the data from the group)*
 
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
 4. etc...
