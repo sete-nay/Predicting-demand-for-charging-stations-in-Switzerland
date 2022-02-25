@@ -50,8 +50,8 @@ We therefore tried to predict the future demand for charging stations per munici
    - Our model predicted that 20'646 additional EV will be operational by the end of 2022, compared to 42'951 today. Under the assumption that the current charging infrastructure is sufficient for the actuel EV stock, this means that 1'065 charging points should be installed through the country to meet the demand in 2022.
 
 ### 5. Suggestions for further improvements
-   - Having a regresion model would be better. With more explanatory value
-   - Where to put the new CS, not just by city buy also by where in the city
+   - Defining a meaningful OLS regression model, including more variables explaining influences on EV sales. Using time series predicitions to better understand yearly patterns.
+   - Where to strategically add new charging stations, not just by city buy also by where in the city, using computed distances between charging points.
    - Make the prediction to take into account total car popultion in order to avoid wrong recomendations (Risch Case)
    - We could have combined the information for the charging stations per city with the information from the clean energy matrix for each canton so we don’t only know where to place the new CS but also if they are getting their energy flor clean power plants/sources
 
