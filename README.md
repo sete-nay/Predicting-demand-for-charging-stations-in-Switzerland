@@ -40,9 +40,9 @@ After having previously analyzed in our course, the situation of clean energy so
 We therefore tried to predict the future demand for charging stations per municipalities, based on the yearly sales of electric vehicles and the geographic charging points infrastructure that is currently available.
 
 ### 2. Data sources:
-- Geographical data of the 2'215 EV charging stations currently available in Switzerland as of January 2022 https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
-- Total EV registered in each of the 2'163 Swiss municipalities, yearly data from 2017 to 2021 https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
-- JSon data of Swiss municipalities https://datahub.io/cividi/ch-municipalities 
+- Geographical data of the 2'215 EV charging stations currently available in Switzerland as of January 2022, json format https://opendata.swiss/fr/dataset/ladestationen-fuer-elektroautos
+- Total EV registered in each of the 2'163 Swiss municipalities, yearly data from 2017 to 2021, excel file https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1103020100_111/px-x-1103020100_111/px-x-1103020100_111.px/
+- Geographic data of all Swiss municipalities, json format https://datahub.io/cividi/ch-municipalities 
 
 ### 4. Conclusions
    - Live Visualization of results
