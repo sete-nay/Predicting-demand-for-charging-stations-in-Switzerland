@@ -57,11 +57,6 @@ create another "setup.md" file and link to it here*
 
 5. Follow setup [instructions](Link to file)
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
 
 ## Contributing Members
 
