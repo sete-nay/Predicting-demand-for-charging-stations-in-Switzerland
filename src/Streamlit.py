@@ -18,9 +18,8 @@ df_raw = load_data(path = "./data/ev_communes.csv")
 df = deepcopy(df_raw)
 
 st.title("Predicting demand for charging stations in Switzerland")
-st.header("Number of new charging stations")
 
-st.subheader("New charging stations per municipalities")
+st.header("New charging stations required per municipality in 2022</b>")
 
 df["delta"] = df.recomm_2022 - df.Count
 df2 = df.dropna()
@@ -47,7 +46,7 @@ fig = px.choropleth_mapbox(
     height=500,
     labels={"City": "Municipality",
            "delta":"Number of new charging stations"},
-    title="<b> New charging stations required per municipality</b>",
+#    title="<b> New charging stations required per municipality in 2022</b>",
     color_continuous_scale="Viridis",
 )
 fig.update_layout(margin={"r":0,"t":35,"l":0,"b":0},
@@ -146,12 +145,10 @@ ax.set_ylabel("Cars per city + Cars per city E")
 
 
 st.pyplot(fig2)
-
 input_double_chart = city_box
-fig3, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 4))     #, sharex=True, sharey=True)
+fig3, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 4))  # , sharex=True, sharey=True)
 
-ax1.plot(df_cs_trans_4.index ,df_cs_trans_4[input_double_chart], alpha = 1)
-ax2.plot(df_cs_trans_3.index ,df_cs_trans_3[input_double_chart], alpha = 1)
-
-
-st.pyplot(fig3)
+if input_double_chart != "All":
+    ax1.plot(df_cs_trans_4.index ,df_cs_trans_4[input_double_chart], alpha = 1)
+    ax2.plot(df_cs_trans_3.index ,df_cs_trans_3[input_double_chart], alpha = 1)
+    st.pyplot(fig3)
