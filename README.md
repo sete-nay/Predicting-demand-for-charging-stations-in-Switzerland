@@ -7,18 +7,21 @@
 #### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
-The purpose of this project is to evaluate the future demand for charging stations in municipalities in Switzerland based in charging infrastructure that is currently available and the growth rate of electric vehicles.
+The purpose of this project is to evaluate the future demand for charging stations in municipalities in Switzerland based in charging infrastructure that is currently available and the growth rate of electric vehicles. 
 
 Assumptions: 
 - current charging infrastructure is sufficient for current vehicle stock, 
-- predictions are based on the electric vehicle stock growth rate from 2016 to 2021.
+- predictions are based on the electric vehicle stock growth rate from 2017 to 2021, for years 2022-23-24.
 
 """"""nice to have: 
-- build a prediction model for historical data for car sales
+- build a prediction model for historical data for car sales using time series
 - add green energy sources
 - narrow down prediction from municipality to location within municipality (based in distance between the stations, etc.)
 - visualisation: car sales per municipality, charging stations per municipality, prediction for new charging stations
 
+Results:
+- Our OLS model calculated a general EV growth rate of 1.624 for 2022. 
+ 
 ### Partner
 * [Name of Partner organization/Government department etc..]
 * Website for partner
