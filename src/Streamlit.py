@@ -14,15 +14,13 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-df = load_data(path = "./data/ev_communes.csv")
+df_raw = load_data(path = "./data/ev_communes.csv")
+df = deepcopy(df_raw)
 
-st.title("Predicting-demand-for-charging-stations-in-Switzerland")
+st.title("Predicting demand for charging stations in Switzerland")
 st.header("Number of new charging stations")
 
-if st.checkbox("Show Dataframe"):
-    st.subheader("This is my dataset:")
-    st.dataframe(data=df)
-
+st.subheader("New charging stations per municipalities")
 
 df["delta"] = df.recomm_2022 - df.Count
 df2 = df.dropna()
@@ -63,6 +61,6 @@ fig.update_layout(margin={"r":0,"t":35,"l":0,"b":0},
                         "yanchor":"bottom", "y":0.95}
                  )
 
-
+st.plotly_chart(fig)
 
 
