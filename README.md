@@ -51,7 +51,7 @@ We therefore tried to predict the future demand for charging stations per munici
 
 ### 5. Suggestions for further improvements
    - Defining a meaningful OLS regression model, including more variables explaining influences on EV sales. Using time series predicitions to better understand yearly patterns.
-   - Where to strategically add new charging stations, not just by city buy also by where in the city, using computed distances between charging points.
+   - Where to strategically add new charging stations, not just by city buy also by where in the city, using computed distances between charging points in order to optimize their access for users.
    - Make the prediction to take into account total car popultion in order to avoid wrong recomendations (Risch Case)
    - We could have combined the information for the charging stations per city with the information from the clean energy matrix for each canton so we don’t only know where to place the new CS but also if they are getting their energy flor clean power plants/sources
 
